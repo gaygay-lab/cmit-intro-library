@@ -1,0 +1,106 @@
+{
+  "scope": "官网作品展示与站点地图可发现的国赛一等奖介绍；2025以659件名单做匹配，历史年份只核验官网自标奖级",
+  "statistics": {
+    "intro_records": 820,
+    "first_prize_detail_records": 820,
+    "unique_showcase_ids": 1679,
+    "year_counts": {
+      "2021": 116,
+      "2025": 77,
+      "2024": 114,
+      "2023": 349,
+      "2022": 121,
+      "2020": 39,
+      "2018": 4
+    },
+    "category_counts": {
+      "4K超高清作品制作": 2,
+      "AIGC类": 47,
+      "电子图书": 15,
+      "国际赛": 2,
+      "红色之旅": 24,
+      "黄帝陵": 4,
+      "科幻创意": 20,
+      "民族文化": 59,
+      "元宇宙": 3,
+      "其他": 55,
+      "人居环境": 73,
+      "数据可视化": 26,
+      "数字艺术": 73,
+      "微信小程序": 23,
+      "乡村振兴": 24,
+      "虚幻作品": 31,
+      "移动应用开发": 58,
+      "影视动漫": 93,
+      "虚拟现实与游戏": 59,
+      "智能产品": 103,
+      "智能软硬件": 26
+    },
+    "2025_roster_total": 659,
+    "2025_matched_roster_ids": 77,
+    "2025_unmatched_roster_count": 582,
+    "2025_showcase_unmatched_count": 0,
+    "empty_first_prize_intro_count": 0,
+    "duplicate_detail_records": 1,
+    "intro_chars": {
+      "min": 4,
+      "median": 294.0,
+      "max": 7028
+    },
+    "text_status_counts": {
+      "body_text": 804,
+      "very_short": 15,
+      "title_only": 1
+    }
+  },
+  "crawl": {
+    "completed_at": "2026-10-04T15:35:41.266248+00:00",
+    "root": "https://www.cmit.cn/html/zuopinzhanshi/list-150-1.html",
+    "robots_url": "https://www.cmit.cn/robots.txt",
+    "category_count": 21,
+    "list_pages": 97,
+    "discovered_detail_urls": 1679,
+    "read_detail_pages": 1679,
+    "unique_detail_ids": 1679,
+    "year_award_counts": {
+      "2021|国赛一等奖": 116,
+      "2021|国赛二等奖": 172,
+      "2023|国赛二等奖": 355,
+      "2023|国赛一等奖": 350,
+      "2024|国赛一等奖": 114,
+      "2025|国赛一等奖": 77,
+      "2020|国赛二等奖": 60,
+      "2022|国赛二等奖": 177,
+      "2022|国赛一等奖": 121,
+      "|": 88,
+      "2018|国赛一等奖": 4,
+      "2020|国赛一等奖": 39,
+      "2022|": 1,
+      "2021|": 5
+    },
+    "failures": [],
+    "blocked": false,
+    "coverage_scope": "官网作品展示导航、站点地图中的作品类别及其全部已发现分页；不等于所有获奖作品均公开了介绍",
+    "selected_fields": "标题、年份、作品分类、奖级、院校、介绍文字及来源；不提取学生/教师姓名",
+    "rate_limit": "全局间隔至少0.55秒，最多2并发；401/403/429或验证挑战停下"
+  },
+  "unmatched_2025_showcase": [],
+  "duplicate_sources": [
+    {
+      "key": [
+        "2023",
+        "西塘古镇",
+        "潍坊理工学院"
+      ],
+      "url": "https://www.cmit.cn/html/yingshidongman/show-158-3003-1.html"
+    }
+  ],
+  "rights": "本库为非官方公开研究索引。原文版权归作品作者或相应权利人；保留原始链接，引用应注明出处，不将他作独特表达或成果作为参赛原创。",
+  "limitations": [
+    "官网介绍不是原始参赛说明书或评委评分表。",
+    "未匹配不等于该作品没有介绍，也不等于未获奖。",
+    "多个年份的介绍单独标年；不能将历史类别直接当作2026赛项。",
+    "AI与媒介未做事实编码；AIGC是赛项标签。",
+    "抓取文本不是训练模型，也没有估计文字对获奖的因果效果。"
+  ]
+}
